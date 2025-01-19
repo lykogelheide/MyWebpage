@@ -1,0 +1,5 @@
+---
+title: "Blog"
+---
+
+One day, this website might contain a blog.
