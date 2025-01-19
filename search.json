@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "One day, this website might contain a blog."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luca Y. Kogelheide",
+    "section": "",
+    "text": "Hi! I am Luca. Currently, I am a master’s student at Utrecht University, doing the Methodology and Statistics master’s degree. I am following the European Master of Official Statistics (EMOS) with Statistics Netherlands. My interests include Data Quality, Survey Methodology and Philosophy of Statistics/Science."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Luca Y. Kogelheide",
+    "section": "Education",
+    "text": "Education\nUtrecht University | Utrecht, Netherlands M.Sc. in Statistics | Sept 2023 - present\nUniversity of Witten/Herdecke | Witten, Germany B.Sc. in Psychology | April 2020 - September 2023"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Luca Y. Kogelheide",
+    "section": "Experience",
+    "text": "Experience\nStatistics Netherlands | Intern (Master Thesis) | Sept 2024 - May 2025\nUtrecht University | Chair of Historical Sociology (Prof. Marco van Leeuwen) | Student Assistant Data Analysis | May 2024 - June 2025\nLWL-Klinik Dortmund | Psychometrics | Sept 2020 - August 2023"
+  }
+]
