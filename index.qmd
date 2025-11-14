@@ -2,51 +2,66 @@
 title: "Luca Y. Kogelheide"
 about:
   template: jolla
-  image: foto.jpg
   links:
+    - icon: Briefcase
+      text: IAB
+      href: https://iab.de/en/employee/kogelheide-luca/
     - icon: twitter-x
-      text: twitter
+      text: Twitter
       href: https://x.com/LYKogelheide
-    - icon: github
-      text: Github
-      href: https://github.com/lykogelheide
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/lykogelheide.bsky.social
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/luca-kogelheide/
+    - icon: github
+      text: Github
+      href: https://github.com/lykogelheide
+page-layout: full
+format:
+  html:
+    css: styles.css
+
 ---
 
-### Luca Yannik Kogelheide
-Master’s Student in Methodology and Statistics | Utrecht University
-Interests: Data Quality, Survey Methodology, Philosophy of Statistics/Science
+::: {layout="[[1,2], [1.5,2,1]]"}
+
+### Contact
+
+![My portrait](foto.jpg){width="200px" style="border-radius: 10px;"}  
+**Luca Y. Kogelheide**  
+PhD Student in Social Data Science  
+Institute of Employment Research  
+University of Mannheim  
+luca.kogelheide[at]iab[dot]de  
+
+### About
+
+I am a *quantitative methodologist* fascinated by how we can reliably measure social and behavioral phenomena. Driven by the conviction that meaningful empirical research should be as *rigorous* and *trustworthy* as the public expects it to be, I am dedicated to fostering an open, transparent, and methodologically robust research culture in the social sciences. Working at the intersection of *statistics* and *survey methodology*, my research is guided by a commitment to strengthening the credibility of empirical findings through rigorous analytic approaches and high-quality data.  
+My own research focuses on *survey statistics* and *data quality*, with a current focus on improving longitudinal labor market panel data. I currently pursue a *PhD in Social Data Science & Research Methodology* at the University of Mannheim and the Institute for Employment Research (IAB). I hold a Research Master’s in Statistics and Methodology, with a specialization in official statistics, including the European Master of Official Statistics, as well as a Bachelor’s degree in Psychology from the University of Witten/Herdecke.
 
 
-## Education
 
-### Utrecht University | Utrecht, Netherlands
-#### M.Sc. in Statistics 
-Sept 2023 - present
-* European Master of Official Statistics (EMOS) with Statistics Netherlands
+### Interests  
 
+- (Panel) Survey Methodology
+- Data Quality
+- Official Statistics
+- Open Science
+- Philosophy of Statistics & Social Science
 
-### University of Witten/Herdecke | Witten, Germany
-#### B.Sc. in Psychology
-April 2020 – Sept 2023
+### Education   
 
+<i class="bi bi-mortarboard-fill"></i>
+PhD in Social Data Science (ongoing)<br>
+<span style="font-size: 0.8em;">Institute for Employment Research (IAB) &amp; University of Mannheim</span>  
+<i class="bi bi-mortarboard-fill"></i>
+Research Master in Statistics and Methodology (European Master in Official Statistics) 2023–2025<br>
+<span style="font-size: 0.8em;">Utrecht University (Statistics Netherlands)</span>  
+<i class="bi bi-mortarboard-fill"></i
+Bachelor Psychology 2020–2023<br>
+<span style="font-size: 0.8em;">University of Witten/Herdecke</span>
 
-## Experience
-
-### Statistics Netherlands | Heerlen, Netherlands
-#### Intern (Master’s Thesis)
-Sept 2024 – May 2025
-* Conducting a simulation study comparing machine learning and statistical models for  Capture-Recapture estimation
-
-### Utrecht University | Utrecht, Netherlands
-#### Student Assistant - Data Analysis
-##### Chair of Historical Sociology (Prof. Marco van Leeuwen)
-May 2024 – June 2025
-* Analysing historical data on international NGOs
-
-### LWL-Klinik Dortmund | Dortmund, Germany
-#### Assistant - Psychometrics
-Sept 2020 – Aug 2023
-* Conducting psychological tests and analysing test data
+###  
+:::
