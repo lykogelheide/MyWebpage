@@ -9,6 +9,8 @@ website:
         text: Home
       - href: Blog.qmd
         text: Blog
+      - href: AboutMe.qmd
+        text: "About Me"
 
 format:
   html:

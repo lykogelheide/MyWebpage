@@ -25,11 +25,24 @@ format:
 
 ---
 
+<!--
+To update the website, write in Terminal:
+quarto publish gh-pages
+
+If this does not work:
+
+1. quarto render
+2. git status (there should be a list of changed files)
+3. git add .
+4. git commit -m "brief description"
+5. git push
+-->
+
 ::: {layout="[[1,2], [1.5,2,1]]"}
 
 ### Contact
 
-![My portrait](foto.jpg){width="200px" style="border-radius: 10px;"}  
+![My portrait](Profilbild.jpeg){width="200px" height="200px" style="border-radius: 50%;"}
 **Luca Y. Kogelheide**  
 PhD Student in Social Data Science  
 Institute of Employment Research  
@@ -39,7 +52,7 @@ luca.kogelheide[at]iab[dot]de
 ### About
 
 I am a *quantitative methodologist* fascinated by how we can reliably measure social and behavioral phenomena. Driven by the conviction that meaningful empirical research should be as *rigorous* and *trustworthy* as the public expects it to be, I am dedicated to fostering an open, transparent, and methodologically robust research culture in the social sciences. Working at the intersection of *statistics* and *survey methodology*, my research is guided by a commitment to strengthening the credibility of empirical findings through rigorous analytic approaches and high-quality data.  
-My own research focuses on *survey statistics* and *data quality*, with a current focus on improving longitudinal labor market panel data. I currently pursue a *PhD in Social Data Science & Research Methodology* at the University of Mannheim and the Institute for Employment Research (IAB). I hold a Research Master’s in Statistics and Methodology, with a specialization in official statistics, including the European Master of Official Statistics, as well as a Bachelor’s degree in Psychology from the University of Witten/Herdecke.
+My own research focuses on *survey statistics* and *data quality*, with a current focus on improving longitudinal labor market panel data. I currently pursue a *PhD in Social Data Science & Research Methodology* at the Institute for Employment Research (IAB) and the University of Mannheim. My supervisors are Prof. Joe Sakshaug (IAB, LMU Munich) and Prof. Florian Keusch (Chair Social Data Science, University of Mannheim). I hold a Research Master’s in Statistics and Methodology, with a specialization in official statistics, including the European Master of Official Statistics, as well as a Bachelor’s degree in Psychology from the University of Witten/Herdecke.
 
 
 
