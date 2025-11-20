@@ -42,7 +42,7 @@ If this does not work:
 
 ### Contact
 
-![My portrait](Profilbild.jpeg){width="200px" style="border-radius: 10px;"}
+![My portrait](Profilbild.jpeg){width="150px" style="border-radius: 10px;"}  
 **Luca Y. Kogelheide**  
 PhD Student in Social Data Science  
 Institute of Employment Research  
