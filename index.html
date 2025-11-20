@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,13 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./Blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./AboutMe.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -117,12 +122,21 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta column-page">
   </div>
 </header><main class="content column-page" id="quarto-document-content">
+<!--
+To update the website, write in Terminal:
+quarto publish gh-pages
+If this does not work:
+1. quarto render
+2. git status (there should be a list of changed files)
+3. git add .
+4. git commit -m "brief description"
+5. git push
+-->
 <div class="quarto-layout-panel" data-layout="[[1,2], [1.5,2,1]]">
 <div class="quarto-layout-row">
 <section id="contact" class="level3 quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
 <h3 data-anchor-id="contact">Contact</h3>
-<p><img src="foto.jpg" class="img-fluid" style="border-radius: 10px;" width="200" alt="My portrait"><br>
-<strong>Luca Y. Kogelheide</strong><br>
+<p><img src="Profilbild.jpeg" class="img-fluid" style="border-radius: 10px;" width="200" alt="My portrait"> <strong>Luca Y. Kogelheide</strong><br>
 PhD Student in Social Data Science<br>
 Institute of Employment Research<br>
 University of Mannheim<br>
@@ -131,7 +145,7 @@ luca.kogelheide[at]iab[dot]de</p>
 <section id="about" class="level3 quarto-layout-cell" style="flex-basis: 66.7%;justify-content: flex-start;">
 <h3 data-anchor-id="about">About</h3>
 <p>I am a <em>quantitative methodologist</em> fascinated by how we can reliably measure social and behavioral phenomena. Driven by the conviction that meaningful empirical research should be as <em>rigorous</em> and <em>trustworthy</em> as the public expects it to be, I am dedicated to fostering an open, transparent, and methodologically robust research culture in the social sciences. Working at the intersection of <em>statistics</em> and <em>survey methodology</em>, my research is guided by a commitment to strengthening the credibility of empirical findings through rigorous analytic approaches and high-quality data.<br>
-My own research focuses on <em>survey statistics</em> and <em>data quality</em>, with a current focus on improving longitudinal labor market panel data. I currently pursue a <em>PhD in Social Data Science &amp; Research Methodology</em> at the University of Mannheim and the Institute for Employment Research (IAB). I hold a Research Master’s in Statistics and Methodology, with a specialization in official statistics, including the European Master of Official Statistics, as well as a Bachelor’s degree in Psychology from the University of Witten/Herdecke.</p>
+My own research focuses on <em>survey statistics</em> and <em>data quality</em>, with a current focus on improving longitudinal labor market panel data. I currently pursue a <em>PhD in Social Data Science &amp; Research Methodology</em> at the Institute for Employment Research (IAB) and the University of Mannheim. My supervisors are Prof.&nbsp;Joe Sakshaug (IAB, LMU Munich) and Prof.&nbsp;Florian Keusch (Chair Social Data Science, University of Mannheim). I hold a Research Master’s in Statistics and Methodology, with a specialization in official statistics, including the European Master of Official Statistics, as well as a Bachelor’s degree in Psychology from the University of Witten/Herdecke.</p>
 </section>
 </div>
 <div class="quarto-layout-row">
@@ -225,13 +239,14 @@ My own research focuses on <em>survey statistics</em> and <em>data quality</em>,
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

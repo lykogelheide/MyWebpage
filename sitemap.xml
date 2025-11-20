@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lykogelheide.github.io/MyWebpage/Blog.html</loc>
-    <lastmod>2025-01-19T21:42:41.572Z</lastmod>
+    <lastmod>2025-11-20T21:16:45.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lykogelheide.github.io/MyWebpage/AboutMe.html</loc>
+    <lastmod>2025-11-20T21:16:45.677Z</lastmod>
   </url>
   <url>
     <loc>https://lykogelheide.github.io/MyWebpage/index.html</loc>
-    <lastmod>2025-11-14T21:52:28.157Z</lastmod>
+    <lastmod>2025-11-20T21:16:45.693Z</lastmod>
   </url>
 </urlset>
