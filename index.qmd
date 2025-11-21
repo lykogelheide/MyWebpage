@@ -47,7 +47,7 @@ If this does not work:
 PhD Student in Social Data Science  
 Institute of Employment Research  
 University of Mannheim  
-luca.kogelheide[at]iab[dot]de  
+luca[dot]kogelheide[at]iab[dot]de  
 
 ### About
 
@@ -62,7 +62,7 @@ My own research focuses on *survey statistics* and *data quality*, with a curren
 - Data Quality
 - Official Statistics
 - Open Science
-- Philosophy of Statistics & Social Science
+- Philosophy of Statistics
 
 ### Education   
 
@@ -72,8 +72,8 @@ PhD in Social Data Science (ongoing)<br>
 <i class="bi bi-mortarboard-fill"></i>
 Research Master in Statistics and Methodology (European Master in Official Statistics) 2023–2025<br>
 <span style="font-size: 0.8em;">Utrecht University (Statistics Netherlands)</span>  
-<i class="bi bi-mortarboard-fill"></i
-Bachelor Psychology 2020–2023<br>
+<i class="bi bi-mortarboard-fill"></i>
+Bachelor in Psychology 2020–2023<br>
 <span style="font-size: 0.8em;">University of Witten/Herdecke</span>
 
 ###  
